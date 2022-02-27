@@ -23,7 +23,7 @@ header input {
 }
 
 header:before {
-  content: '/r/';
+  content: 'search;-';
   display: inline-block;
   color: white;
   font-size: 32px;
