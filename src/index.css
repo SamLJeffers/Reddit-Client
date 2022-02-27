@@ -32,3 +32,22 @@ header:before {
   text-transform: uppercase;
 }
 
+.articles, article {
+  padding: 30px 15px;
+  background-color: #fff;
+}
+
+.articles, article a {
+  text-decoration: none;
+}
+
+.articles, article, h3 {
+  color: #212121;
+}
+.articles, article:nth-child(2n) {
+  background-color: lightgrey; 
+}
+
+.articles, article:hover {
+  background-image:linear-gradient(to left, rgb(119, 35, 168), blue);
+}
